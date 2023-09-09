@@ -2300,3 +2300,285 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.09-04.29.04:392][877]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
 [2023.09.09-04.29.04:393][877]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
 [2023.09.09-04.29.04:435][879]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.09.09-04.29.29:121][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.09.09-04.29.29:135][  5]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/GameMap_Auto2
+[2023.09.09-04.29.29:135][  5]LogSavePackage: Moving '../../../../SIC2DScroll/SIC_2DScroll/Saved/GameMap_Auto20BA5F3BF4F6EA68009BE0490E5818E87.tmp' to '../../../../SIC2DScroll/SIC_2DScroll/Saved/Autosaves/Game/ThirdPerson/Maps/GameMap_Auto2.umap'
+[2023.09.09-04.29.29:141][  5]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/GameMap' took 0.028
+[2023.09.09-04.29.29:141][  5]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.028
+[2023.09.09-04.29.44:869][108]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.09.09-04.29.44:874][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.09-04.29.44:874][108]PIE: New page: PIEセッション: GameMap (2023/09/09 22:29:44)
+[2023.09.09-04.29.44:874][108]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_GameMap
+[2023.09.09-04.29.44:879][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004436s)
+[2023.09.09-04.29.44:879][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/GameMap.GameMap to /Game/ThirdPerson/Maps/UEDPIE_0_GameMap.GameMap (0.004472s)
+[2023.09.09-04.29.44:879][108]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-04.29.44:879][108]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-04.29.44:879][108]LogAIModule: Creating AISystem for world GameMap
+[2023.09.09-04.29.44:880][108]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2023.09.09-04.29.44:888][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.09.09-04.29.44:888][108]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.09.09-04.29.44:888][108]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.09-04.29.44:888][108]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.09-04.29.44:888][108]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.09-04.29.44:888][108]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.09-04.29.44:888][108]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.09-04.29.44:888][108]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.09-04.29.44:888][108]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.09-04.29.44:888][108]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.09-04.29.44:889][108]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.09-04.29.44:889][108]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.09-04.29.44:889][108]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.09-04.29.44:891][108]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.09-04.29.44:922][108]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.09.09-04.29.44:922][108]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.09-04.29.44:922][108]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.09-04.29.44:922][108]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.09-04.29.44:923][108]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.09.09-04.29.44:923][108]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.09.09-04.29.44:925][108]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.09.09-04.29.44:925][108]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.09.09-04.29.44:925][108]LogInit: FAudioDevice initialized with ID 17.
+[2023.09.09-04.29.44:925][108]LogAudio: Display: Audio Device (ID: 17) registered with world 'GameMap'.
+[2023.09.09-04.29.44:925][108]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2023.09.09-04.29.44:927][108]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.09-04.29.44:929][108]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 60) at 2023.09.09-13.29.44
+[2023.09.09-04.29.44:929][108]LogWorld: Bringing up level for play took: 0.001691
+[2023.09.09-04.29.44:931][108]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.09.09-04.29.44:935][108]PIE: サーバーにログインしました
+[2023.09.09-04.29.44:935][108]PIE: PIE合計開始時間 0.061 秒。
+[2023.09.09-04.29.44:994][108]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.29.44:995][108]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.29.44:996][108]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.29.44:996][108]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.29.54:722][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-04.29.54:722][690]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_GameMap
+[2023.09.09-04.29.54:722][690]LogWorld: UWorld::CleanupWorld for GameMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-04.29.54:722][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-04.29.54:725][690]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.09-04.29.54:727][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-04.29.54:734][690]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.09-04.29.54:734][690]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2023.09.09-04.29.54:734][690]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.09.09-04.29.54:736][690]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.09.09-04.29.54:741][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-04.29.54:743][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.09.09-04.29.54:762][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.29.54:763][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.29.54:763][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.29.54:764][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.29.54:801][692]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.09.09-04.30.24:865][ 21]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.09.09-04.30.24:870][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.09-04.30.24:870][ 21]PIE: New page: PIEセッション: GameMap (2023/09/09 22:30:24)
+[2023.09.09-04.30.24:870][ 21]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_GameMap
+[2023.09.09-04.30.24:875][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004085s)
+[2023.09.09-04.30.24:875][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/GameMap.GameMap to /Game/ThirdPerson/Maps/UEDPIE_0_GameMap.GameMap (0.004112s)
+[2023.09.09-04.30.24:875][ 21]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-04.30.24:875][ 21]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-04.30.24:875][ 21]LogAIModule: Creating AISystem for world GameMap
+[2023.09.09-04.30.24:875][ 21]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2023.09.09-04.30.24:884][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.09.09-04.30.24:884][ 21]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.09.09-04.30.24:884][ 21]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.09-04.30.24:884][ 21]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.09-04.30.24:884][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.09-04.30.24:884][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.09-04.30.24:884][ 21]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.09-04.30.24:884][ 21]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.09-04.30.24:884][ 21]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.09-04.30.24:884][ 21]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.09-04.30.24:885][ 21]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.09-04.30.24:885][ 21]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.09-04.30.24:885][ 21]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.09-04.30.24:886][ 21]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.09-04.30.24:916][ 21]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.09.09-04.30.24:917][ 21]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.09-04.30.24:917][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.09-04.30.24:917][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.09-04.30.24:917][ 21]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.09.09-04.30.24:917][ 21]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.09.09-04.30.24:919][ 21]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.09.09-04.30.24:919][ 21]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.09.09-04.30.24:919][ 21]LogInit: FAudioDevice initialized with ID 18.
+[2023.09.09-04.30.24:919][ 21]LogAudio: Display: Audio Device (ID: 18) registered with world 'GameMap'.
+[2023.09.09-04.30.24:919][ 21]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2023.09.09-04.30.24:921][ 21]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.09-04.30.24:923][ 21]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 60) at 2023.09.09-13.30.24
+[2023.09.09-04.30.24:923][ 21]LogWorld: Bringing up level for play took: 0.001668
+[2023.09.09-04.30.24:925][ 21]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.09.09-04.30.24:928][ 21]PIE: サーバーにログインしました
+[2023.09.09-04.30.24:929][ 21]PIE: PIE合計開始時間 0.058 秒。
+[2023.09.09-04.30.24:988][ 21]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.30.24:988][ 21]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.30.24:989][ 21]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.30.24:989][ 21]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.30.40:602][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-04.30.40:602][956]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_GameMap
+[2023.09.09-04.30.40:603][956]LogWorld: UWorld::CleanupWorld for GameMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-04.30.40:603][956]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-04.30.40:606][956]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.09-04.30.40:608][956]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-04.30.40:616][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-04.30.40:616][956]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2023.09.09-04.30.40:616][956]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.09.09-04.30.40:618][956]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.09.09-04.30.40:624][956]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.09.09-04.30.40:632][956]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.30.40:632][956]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.30.40:633][956]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.30.40:633][956]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.30.40:669][958]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.09.09-04.31.06:499][130]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-04.31.06:579][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/GameMap" FILE="../../../../SIC2DScroll/SIC_2DScroll/Content/ThirdPerson/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.09-04.31.06:587][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.09.09-04.31.06:599][130]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/GameMap
+[2023.09.09-04.31.06:600][130]LogSavePackage: Moving '../../../../SIC2DScroll/SIC_2DScroll/Saved/GameMap18BAE0A74A522A5DC7F8A295F4BCB877.tmp' to '../../../../SIC2DScroll/SIC_2DScroll/Content/ThirdPerson/Maps/GameMap.umap'
+[2023.09.09-04.31.06:605][130]LogFileHelpers: Saving map 'GameMap' took 0.027
+[2023.09.09-04.31.06:613][130]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms
+[2023.09.09-04.31.06:616][130]AssetCheck: New page: アセット保存：GameMap
+[2023.09.09-04.31.06:616][130]LogContentValidation: Display: /Script/Engine.World /Game/ThirdPerson/Maps/GameMap.GameMap を検証しています
+[2023.09.09-04.38.37:529][779]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.09.09-04.38.37:534][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.09-04.38.37:534][779]PIE: New page: PIEセッション: GameMap (2023/09/09 22:38:37)
+[2023.09.09-04.38.37:534][779]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_GameMap
+[2023.09.09-04.38.37:538][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004332s)
+[2023.09.09-04.38.37:538][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/GameMap.GameMap to /Game/ThirdPerson/Maps/UEDPIE_0_GameMap.GameMap (0.004391s)
+[2023.09.09-04.38.37:539][779]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-04.38.37:539][779]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-04.38.37:539][779]LogAIModule: Creating AISystem for world GameMap
+[2023.09.09-04.38.37:540][779]LogPlayLevel: PIE: World Init took: (0.001359s)
+[2023.09.09-04.38.37:548][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.09.09-04.38.37:548][779]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.09.09-04.38.37:548][779]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.09-04.38.37:548][779]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.09-04.38.37:548][779]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.09-04.38.37:548][779]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.09-04.38.37:548][779]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.09-04.38.37:548][779]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.09-04.38.37:548][779]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.09-04.38.37:548][779]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.09-04.38.37:548][779]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.09-04.38.37:549][779]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.09-04.38.37:549][779]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.09-04.38.37:550][779]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.09-04.38.37:579][779]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.09.09-04.38.37:580][779]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.09-04.38.37:580][779]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.09-04.38.37:580][779]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.09-04.38.37:580][779]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.09.09-04.38.37:580][779]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.09.09-04.38.37:582][779]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.09.09-04.38.37:582][779]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.09.09-04.38.37:582][779]LogInit: FAudioDevice initialized with ID 19.
+[2023.09.09-04.38.37:582][779]LogAudio: Display: Audio Device (ID: 19) registered with world 'GameMap'.
+[2023.09.09-04.38.37:582][779]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2023.09.09-04.38.37:585][779]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.09-04.38.37:586][779]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 60) at 2023.09.09-13.38.37
+[2023.09.09-04.38.37:586][779]LogWorld: Bringing up level for play took: 0.001695
+[2023.09.09-04.38.37:588][779]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.09.09-04.38.37:592][779]PIE: サーバーにログインしました
+[2023.09.09-04.38.37:593][779]PIE: PIE合計開始時間 0.059 秒。
+[2023.09.09-04.38.37:652][779]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.38.37:653][779]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.38.37:653][779]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.38.37:654][779]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.39.42:749][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-04.39.42:749][682]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_GameMap
+[2023.09.09-04.39.42:749][682]LogWorld: UWorld::CleanupWorld for GameMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-04.39.42:750][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-04.39.42:753][682]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.09-04.39.42:755][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-04.39.42:762][682]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.09-04.39.42:763][682]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2023.09.09-04.39.42:763][682]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.09.09-04.39.42:764][682]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.09.09-04.39.42:770][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-04.39.42:772][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.09.09-04.39.42:792][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.39.42:793][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.39.42:794][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.39.42:794][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.39.42:813][683]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.09.09-04.40.38:698][111]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.09.09-04.40.38:704][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.09-04.40.38:704][111]PIE: New page: PIEセッション: GameMap (2023/09/09 22:40:38)
+[2023.09.09-04.40.38:704][111]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_GameMap
+[2023.09.09-04.40.38:708][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003890s)
+[2023.09.09-04.40.38:708][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/GameMap.GameMap to /Game/ThirdPerson/Maps/UEDPIE_0_GameMap.GameMap (0.003936s)
+[2023.09.09-04.40.38:708][111]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.09-04.40.38:708][111]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.09-04.40.38:709][111]LogAIModule: Creating AISystem for world GameMap
+[2023.09.09-04.40.38:709][111]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2023.09.09-04.40.38:717][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.09.09-04.40.38:717][111]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.09.09-04.40.38:717][111]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.09-04.40.38:718][111]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.09-04.40.38:718][111]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.09-04.40.38:718][111]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.09-04.40.38:718][111]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.09-04.40.38:718][111]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.09-04.40.38:718][111]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.09-04.40.38:718][111]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.09-04.40.38:718][111]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.09-04.40.38:718][111]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.09-04.40.38:718][111]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.09-04.40.38:720][111]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.09-04.40.38:749][111]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.09.09-04.40.38:750][111]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.09-04.40.38:750][111]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.09-04.40.38:750][111]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.09-04.40.38:750][111]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.09.09-04.40.38:750][111]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.09.09-04.40.38:752][111]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.09.09-04.40.38:752][111]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.09.09-04.40.38:752][111]LogInit: FAudioDevice initialized with ID 20.
+[2023.09.09-04.40.38:752][111]LogAudio: Display: Audio Device (ID: 20) registered with world 'GameMap'.
+[2023.09.09-04.40.38:752][111]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.09.09-04.40.38:755][111]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.09-04.40.38:756][111]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 60) at 2023.09.09-13.40.38
+[2023.09.09-04.40.38:756][111]LogWorld: Bringing up level for play took: 0.001672
+[2023.09.09-04.40.38:758][111]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.09.09-04.40.38:762][111]PIE: サーバーにログインしました
+[2023.09.09-04.40.38:762][111]PIE: PIE合計開始時間 0.059 秒。
+[2023.09.09-04.40.38:826][111]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.40.38:827][111]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.40.38:827][111]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.40.38:828][111]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.40.46:859][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-04.40.46:859][592]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_GameMap
+[2023.09.09-04.40.46:860][592]LogWorld: UWorld::CleanupWorld for GameMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.09-04.40.46:860][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-04.40.46:863][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.09-04.40.46:865][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.09-04.40.46:873][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.09-04.40.46:873][592]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.09.09-04.40.46:873][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.09.09-04.40.46:875][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.09.09-04.40.46:882][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.09.09-04.40.46:903][592]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.40.46:903][592]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.40.46:904][592]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.40.46:904][592]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.09-04.40.46:944][594]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.09.09-04.40.48:610][692]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-04.40.48:674][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/GameMap" FILE="../../../../SIC2DScroll/SIC_2DScroll/Content/ThirdPerson/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.09-04.40.48:682][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.09.09-04.40.48:694][692]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/GameMap
+[2023.09.09-04.40.48:694][692]LogSavePackage: Moving '../../../../SIC2DScroll/SIC_2DScroll/Saved/GameMap838859CE4D81058AC43CC496F17346E5.tmp' to '../../../../SIC2DScroll/SIC_2DScroll/Content/ThirdPerson/Maps/GameMap.umap'
+[2023.09.09-04.40.48:700][692]LogFileHelpers: Saving map 'GameMap' took 0.027
+[2023.09.09-04.40.48:706][692]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 208 ms)
+[2023.09.09-04.40.48:710][692]AssetCheck: New page: アセット保存：GameMap
+[2023.09.09-04.40.48:710][692]LogContentValidation: Display: /Script/Engine.World /Game/ThirdPerson/Maps/GameMap.GameMap を検証しています
+[2023.09.09-04.41.04:672][636]LogContentBrowser: Attempting asset rename: GameMap -> GameMap1
+[2023.09.09-04.41.04:721][636]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.09-04.41.04:789][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/GameMap1" FILE="../../../../SIC2DScroll/SIC_2DScroll/Content/ThirdPerson/Maps/GameMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.09.09-04.41.04:798][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.09.09-04.41.04:810][636]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/GameMap1
+[2023.09.09-04.41.04:810][636]LogSavePackage: Moving '../../../../SIC2DScroll/SIC_2DScroll/Saved/GameMap180CAEF234481EFF75F1D56A6D7A20B99.tmp' to '../../../../SIC2DScroll/SIC_2DScroll/Content/ThirdPerson/Maps/GameMap1.umap'
+[2023.09.09-04.41.04:817][636]LogFileHelpers: Saving map 'GameMap1' took 0.028
+[2023.09.09-04.41.04:824][636]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 311 ms)
+[2023.09.09-04.41.04:839][636]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.09.09-04.41.04:847][636]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.09.09-04.41.04:855][636]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.09.09-04.41.04:858][636]AssetCheck: New page: アセット保存：GameMap1
+[2023.09.09-04.41.04:858][636]LogContentValidation: Display: /Script/Engine.World /Game/ThirdPerson/Maps/GameMap1.GameMap1 を検証しています
