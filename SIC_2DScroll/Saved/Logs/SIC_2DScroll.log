@@ -2617,3 +2617,224 @@ Script Stack (0 frames) :
 [2023.09.13-00.55.14:374][908]LogPlayLevel: Display: Destroying online subsystem :Context_27
 [2023.09.13-00.55.14:392][908]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
 [2023.09.13-00.55.23:584][262]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.09.13-00.59.51:916][392]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.09.13-00.59.51:924][392]LogContentBundle: [ThirdPersonMap(スタンドアローン)] Generating Streaming for 0 Content Bundles.
+[2023.09.13-00.59.51:926][392]LogWorldPartition: Display: GenerateStreaming started...
+[2023.09.13-00.59.51:926][392]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.09.13-00.59.51:926][392]LogWorldPartition: Display: GetPartitionedActors took 11 us (total: 4 ms)
+[2023.09.13-00.59.51:926][392]LogWorldPartition: Display: GenerateStreaming took 199 us (total: 6 ms)
+[2023.09.13-00.59.51:926][392]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.09.13-00.59.51:927][392]LogPlayLevel: [PlayLevel] Compiling BP_MoveJumpEnemy before play...
+[2023.09.13-00.59.52:045][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.09.13-00.59.52:047][392]LogPlayLevel: PlayLevel: Blueprint regeneration took 121 ms (1 blueprints)
+[2023.09.13-00.59.52:047][392]PIE: New page: PIEセッション: ThirdPersonMap (2023/09/13 18:59:52)
+[2023.09.13-00.59.52:085][392]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.13-00.59.52:089][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004416s)
+[2023.09.13-00.59.52:089][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004454s)
+[2023.09.13-00.59.52:089][392]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.13-00.59.52:089][392]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.13-00.59.52:090][392]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.09.13-00.59.52:090][392]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.13-00.59.52:090][392]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.13-00.59.52:090][392]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.09.13-00.59.52:091][392]LogContentBundle: [ThirdPersonMap(スタンドアローン)] Creating new contrainer.
+[2023.09.13-00.59.52:091][392]LogWorldPartition: Display: WorldPartition initialize took 985 us (total: 1.11 sec)
+[2023.09.13-00.59.52:091][392]LogPlayLevel: PIE: World Init took: (0.002048s)
+[2023.09.13-00.59.52:116][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.09.13-00.59.52:117][392]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.09.13-00.59.52:117][392]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.13-00.59.52:117][392]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.13-00.59.52:117][392]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.13-00.59.52:117][392]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.13-00.59.52:117][392]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.13-00.59.52:117][392]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.13-00.59.52:117][392]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.13-00.59.52:117][392]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.13-00.59.52:118][392]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.13-00.59.52:118][392]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.13-00.59.52:118][392]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.13-00.59.52:120][392]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.13-00.59.52:165][392]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.09.13-00.59.52:165][392]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.13-00.59.52:165][392]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.13-00.59.52:165][392]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.13-00.59.52:166][392]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.09.13-00.59.52:166][392]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.09.13-00.59.52:168][392]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.09.13-00.59.52:168][392]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.09.13-00.59.52:168][392]LogInit: FAudioDevice initialized with ID 16.
+[2023.09.13-00.59.52:168][392]LogAudio: Display: Audio Device (ID: 16) registered with world 'ThirdPersonMap'.
+[2023.09.13-00.59.52:168][392]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2023.09.13-00.59.52:171][392]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.13-00.59.52:184][392]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.09.13-09.59.52
+[2023.09.13-00.59.52:185][392]LogWorld: Bringing up level for play took: 0.013738
+[2023.09.13-00.59.52:187][392]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.09.13-00.59.52:191][392]PIE: サーバーにログインしました
+[2023.09.13-00.59.52:192][392]PIE: PIE合計開始時間 0.268 秒。
+[2023.09.13-00.59.52:203][392]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:204][392]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:205][392]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:205][392]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:206][392]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:207][392]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:208][392]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:208][392]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:209][392]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:209][392]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:211][392]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:211][392]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:269][393]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:270][393]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:270][393]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:271][393]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:271][393]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:271][393]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:272][393]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:272][393]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:273][393]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:274][393]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:275][393]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-00.59.52:276][393]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.01.48:466][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.13-01.01.48:466][244]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.13-01.01.48:467][244]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.13-01.01.48:467][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.13-01.01.48:467][244]LogContentBundle: [ThirdPersonMap(スタンドアローン)] Deleting container.
+[2023.09.13-01.01.48:471][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.13-01.01.48:477][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.13-01.01.48:504][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.13-01.01.48:504][244]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2023.09.13-01.01.48:504][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.09.13-01.01.48:507][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.09.13-01.01.48:519][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.09.13-01.01.48:553][244]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.01.48:575][245]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.09.13-01.01.48:594][245]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.02.15:527][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.09.13-01.02.15:533][370]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/PO/MGIOVQJTM6KLF102WKBO1J_Auto2
+[2023.09.13-01.02.15:533][370]LogSavePackage: Moving 'C:/Users/2220120/Desktop/SIC2DScroll/SIC_2DScroll/Saved/MGIOVQJTM6KLF102WKBO1J_Auto2A5A50F2D4467A1A2AC9D5E9968A8A34C.tmp' to 'C:/Users/2220120/Desktop/SIC2DScroll/SIC_2DScroll/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/PO/MGIOVQJTM6KLF102WKBO1J_Auto2.uasset'
+[2023.09.13-01.02.15:535][370]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.035
+[2023.09.13-01.02.15:535][370]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.035
+[2023.09.13-01.02.15:536][370]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_MoveJumpEnemy] ([2] browsable assets)...
+[2023.09.13-01.02.15:550][370]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_MoveJumpEnemy.BP_MoveJumpEnemy]
+[2023.09.13-01.02.15:550][370]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_MoveJumpEnemy]
+[2023.09.13-01.02.15:561][370]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_MoveJumpEnemy_Auto2
+[2023.09.13-01.02.15:561][370]LogSavePackage: Moving 'C:/Users/2220120/Desktop/SIC2DScroll/SIC_2DScroll/Saved/BP_MoveJumpEnemy_Auto246A65370496EDBAA2C5F629CDED58908.tmp' to 'C:/Users/2220120/Desktop/SIC2DScroll/SIC_2DScroll/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_MoveJumpEnemy_Auto2.uasset'
+[2023.09.13-01.02.15:562][370]LogFileHelpers: Auto-saving content packages took 0.027
+[2023.09.13-01.07.01:240][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.09.13-01.07.01:243][928]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.13-01.07.01:335][928]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/PO/MGIOVQJTM6KLF102WKBO1J
+[2023.09.13-01.07.01:338][928]LogSavePackage: Moving 'C:/Users/2220120/Desktop/SIC2DScroll/SIC_2DScroll/Saved/MGIOVQJTM6KLF102WKBO1JE9F74478499F65242A8573AF51B17279.tmp' to 'C:/Users/2220120/Desktop/SIC2DScroll/SIC_2DScroll/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/PO/MGIOVQJTM6KLF102WKBO1J.uasset'
+[2023.09.13-01.07.01:339][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_MoveJumpEnemy" FILE="C:/Users/2220120/Desktop/SIC2DScroll/SIC_2DScroll/Content/ThirdPerson/Blueprints/BP_MoveJumpEnemy.uasset" SILENT=true
+[2023.09.13-01.07.01:351][928]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_MoveJumpEnemy
+[2023.09.13-01.07.01:351][928]LogSavePackage: Moving 'C:/Users/2220120/Desktop/SIC2DScroll/SIC_2DScroll/Saved/BP_MoveJumpEnemyDEB09CF54B68330A71BBC78FE9F3353C.tmp' to 'C:/Users/2220120/Desktop/SIC2DScroll/SIC_2DScroll/Content/ThirdPerson/Blueprints/BP_MoveJumpEnemy.uasset'
+[2023.09.13-01.07.01:360][928]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 257 ms)
+[2023.09.13-01.07.01:368][928]AssetCheck: New page: アセット保存：複数のアセット
+[2023.09.13-01.07.01:368][928]LogContentValidation: Display: /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_MoveJumpEnemy.BP_MoveJumpEnemy を検証しています
+[2023.09.13-01.07.01:368][928]LogContentValidation: Display: /Game/ThirdPerson/Blueprints/BP_MoveJumpEnemy.BP_MoveJumpEnemy_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Enemy_C_UAID_D8BBC1B704FB02A801_1622973920 を検証しています
+[2023.09.13-01.16.27:162][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.09.13-01.20.16:773][ 39]BlueprintLog: New page: BP_MoveJumpEnemy をコンパイル
+[2023.09.13-01.20.16:843][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.09.13-01.20.41:427][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.09.13-01.20.41:470][897]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/PO/MGIOVQJTM6KLF102WKBO1J_Auto3
+[2023.09.13-01.20.41:470][897]LogSavePackage: Moving 'C:/Users/2220120/Desktop/SIC2DScroll/SIC_2DScroll/Saved/MGIOVQJTM6KLF102WKBO1J_Auto3ACBA2D8A4FFD9A77064B43B25F5E9C25.tmp' to 'C:/Users/2220120/Desktop/SIC2DScroll/SIC_2DScroll/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/PO/MGIOVQJTM6KLF102WKBO1J_Auto3.uasset'
+[2023.09.13-01.20.41:473][897]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.071
+[2023.09.13-01.20.41:473][897]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.071
+[2023.09.13-01.21.52:859][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.09.13-01.21.52:863][393]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.13-01.21.52:960][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/PO/MGIOVQJTM6KLF102WKBO1J
+[2023.09.13-01.21.52:960][393]LogSavePackage: Moving 'C:/Users/2220120/Desktop/SIC2DScroll/SIC_2DScroll/Saved/MGIOVQJTM6KLF102WKBO1J093EFBB843AEFBC19F07C89C1C8F336F.tmp' to 'C:/Users/2220120/Desktop/SIC2DScroll/SIC_2DScroll/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/PO/MGIOVQJTM6KLF102WKBO1J.uasset'
+[2023.09.13-01.21.52:975][393]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 370 ms)
+[2023.09.13-01.21.52:983][393]AssetCheck: New page: アセット保存：BP_Enemy_C_UAID_D8BBC1B704FB02A801_1622973920
+[2023.09.13-01.21.52:983][393]LogContentValidation: Display: /Game/ThirdPerson/Blueprints/BP_MoveJumpEnemy.BP_MoveJumpEnemy_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Enemy_C_UAID_D8BBC1B704FB02A801_1622973920 を検証しています
+[2023.09.13-01.29.10:704][736]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.09.13-01.29.10:712][736]LogContentBundle: [ThirdPersonMap(スタンドアローン)] Generating Streaming for 0 Content Bundles.
+[2023.09.13-01.29.10:713][736]LogWorldPartition: Display: GenerateStreaming started...
+[2023.09.13-01.29.10:713][736]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.09.13-01.29.10:713][736]LogWorldPartition: Display: GetPartitionedActors took 9 us (total: 4 ms)
+[2023.09.13-01.29.10:713][736]LogWorldPartition: Display: GenerateStreaming took 150 us (total: 6 ms)
+[2023.09.13-01.29.10:714][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.13-01.29.10:714][736]PIE: New page: PIEセッション: ThirdPersonMap (2023/09/13 19:29:10)
+[2023.09.13-01.29.10:739][736]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.13-01.29.10:745][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005286s)
+[2023.09.13-01.29.10:745][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005335s)
+[2023.09.13-01.29.10:745][736]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.13-01.29.10:745][736]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.13-01.29.10:746][736]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.09.13-01.29.10:746][736]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.13-01.29.10:746][736]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.13-01.29.10:746][736]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.09.13-01.29.10:747][736]LogContentBundle: [ThirdPersonMap(スタンドアローン)] Creating new contrainer.
+[2023.09.13-01.29.10:747][736]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.11 sec)
+[2023.09.13-01.29.10:747][736]LogPlayLevel: PIE: World Init took: (0.002622s)
+[2023.09.13-01.29.10:775][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.09.13-01.29.10:776][736]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.09.13-01.29.10:776][736]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.13-01.29.10:777][736]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.13-01.29.10:777][736]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.13-01.29.10:777][736]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.13-01.29.10:777][736]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.13-01.29.10:777][736]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.13-01.29.10:777][736]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.13-01.29.10:777][736]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.13-01.29.10:777][736]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.13-01.29.10:777][736]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.13-01.29.10:777][736]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.13-01.29.10:780][736]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.13-01.29.10:822][736]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.09.13-01.29.10:823][736]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.13-01.29.10:823][736]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.13-01.29.10:823][736]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.13-01.29.10:824][736]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.09.13-01.29.10:824][736]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.09.13-01.29.10:826][736]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.09.13-01.29.10:826][736]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.09.13-01.29.10:826][736]LogInit: FAudioDevice initialized with ID 17.
+[2023.09.13-01.29.10:826][736]LogAudio: Display: Audio Device (ID: 17) registered with world 'ThirdPersonMap'.
+[2023.09.13-01.29.10:826][736]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2023.09.13-01.29.10:829][736]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.13-01.29.10:842][736]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.09.13-10.29.10
+[2023.09.13-01.29.10:844][736]LogWorld: Bringing up level for play took: 0.014394
+[2023.09.13-01.29.10:846][736]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.09.13-01.29.10:850][736]PIE: サーバーにログインしました
+[2023.09.13-01.29.10:851][736]PIE: PIE合計開始時間 0.139 秒。
+[2023.09.13-01.29.10:908][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:909][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:909][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:910][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:910][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:911][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:911][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:911][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:912][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:913][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:914][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:914][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:922][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:922][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:923][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:923][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:924][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:924][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:925][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:925][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:925][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:926][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:927][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.10:928][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.43:018][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.13-01.29.43:018][575]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.13-01.29.43:018][575]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.13-01.29.43:019][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.13-01.29.43:019][575]LogContentBundle: [ThirdPersonMap(スタンドアローン)] Deleting container.
+[2023.09.13-01.29.43:022][575]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.13-01.29.43:027][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.13-01.29.43:054][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.13-01.29.43:054][575]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2023.09.13-01.29.43:054][575]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.09.13-01.29.43:056][575]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.09.13-01.29.43:066][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.09.13-01.29.43:099][575]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.43:122][576]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.09.13-01.29.43:140][576]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 入力「」は空でした。
+[2023.09.13-01.29.48:112][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
